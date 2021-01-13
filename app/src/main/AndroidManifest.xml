@@ -11,13 +11,15 @@
         android:theme="@style/Theme.TalkingFragment">
         <activity android:name=".way_two.WayTwoActivity"></activity>
         <activity android:name=".way_three.WayThreeActivity" />
-        <activity android:name=".way_one.WayOneActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".way_one.WayOneActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
         </activity>
     </application>
 
