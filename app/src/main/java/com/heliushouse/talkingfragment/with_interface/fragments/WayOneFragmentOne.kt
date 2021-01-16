@@ -1,4 +1,4 @@
-package com.heliushouse.talkingfragment.way_one.fragments
+package com.heliushouse.talkingfragment.with_interface.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import com.heliushouse.talkingfragment.R
 import com.heliushouse.talkingfragment.databinding.FragmentWayOneOneBinding
-import com.heliushouse.talkingfragment.util.FragmentDataListener
+import com.heliushouse.talkingfragment.with_interface.FragmentDataListener
 
 
 class WayOneFragmentOne : Fragment() {
