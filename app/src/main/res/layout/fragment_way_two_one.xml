@@ -10,6 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".with_viewmodel.fragments.WayTwoFragmentOne">
+        <TextView
+            android:id="@+id/heading"
+            android:text="FRAGMENT 1"
+            android:textSize="28sp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
         <TextView
             android:id="@+id/tv"
@@ -18,6 +25,7 @@
             android:layout_margin="20dp"
             android:textSize="24sp"
             android:textAlignment="center"
+            android:layout_below="@id/heading"
             tools:text="TEXT HERE"/>
 
         <EditText

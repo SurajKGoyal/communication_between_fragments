@@ -10,14 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TalkingFragment">
         <activity android:name=".with_viewmodel.WayTwoActivity">
-
-        </activity>
-        <activity android:name=".with_event_bus.WayThreeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".with_event_bus.WayThreeActivity">
+
         </activity>
         <activity android:name=".with_interface.WayOneActivity">
 
