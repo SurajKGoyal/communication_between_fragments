@@ -4,6 +4,10 @@ This project is about some practices to pass data among fragments. Three Ways ar
 - With Interface
 - With ViewModel
 - with EventBus
+<p align="center">
+<img src="extras/talking_fragment.gif"/>
+</p>
+
 
 ## Usage
 
