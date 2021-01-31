@@ -12,6 +12,10 @@ This project is about some practices to pass data among fragments. Three Ways ar
 ## Usage
 
 This project is supposed be a tutorial. It shows you some cool ways to pass data in your app's screens and services. You can also read about this on [Medium](https://surajkgoyal.medium.com/communication-between-fragments-ed5f006268a7).
+- [With Interface](app/src/main/java/com/heliushouse/talkingfragment/with_interface) Passing data between fragments using interface.
+- [With EventBus](app/src/main/java/com/heliushouse/talkingfragment/with_event_bus) Passing data between fragments using EventBus.
+- [With EventBus](app/src/main/java/com/heliushouse/talkingfragment/with_viewmodel) Passing data between fragments using ViewModel.
+
 
 ## Built With 🛠
 
